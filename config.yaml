@@ -6,7 +6,7 @@ googleAnalytics: '' # todo: set your analytics id.
 
 params:
   image: /images/banner.png
-  subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel. # todo: change default subtitle for your website.
+  subtitle: Many media. # todo: change default subtitle for your website.
   copyright: All rights reserved.
   author: Joy Emery
   dontShowSource: true
@@ -47,7 +47,7 @@ taxonomies:
   tag: tags
 
 permalinks:
-  highlights: ":filename/"
+  tags: ":slug"
 
 menu:
   main:
@@ -55,13 +55,13 @@ menu:
       url: /highlights/
       weight: 1
     - name: people
-      url: /tags/people/
+      url: /people/
       weight: 2
     - name: nature
-      url: /tags/nature/
+      url: /nature/
       weight: 3
     - name: everything
-      url: /tags/archive/
+      url: /archive/
       weight: 4
     - name: about
       url: /about/
