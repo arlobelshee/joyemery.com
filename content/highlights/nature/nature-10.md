@@ -1,12 +1,11 @@
 ---
-weight: 2
+weight: -10
 images:
-- https://source.unsplash.com/random?nature&30426
-title: nature 2
+- https://source.unsplash.com/random?nature&30210
+title: nature 10
 date: 2022-07-23
 tags:
-- work # homepage
-- archive # all posts
+- highlights # homepage
 - nature
 ---
 

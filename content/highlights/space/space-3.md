@@ -5,7 +5,7 @@ images:
 title: galaxy 3
 date: 2022-07-23
 tags:
-- work # homepage
+- highlights # homepage
 - archive # all posts
 - space
 ---

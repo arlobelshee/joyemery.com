@@ -1,6 +1,6 @@
 ---
-title: work
-url: work
+title: highlights
+url: highlights
 ---
 
 <div align="center">
@@ -25,4 +25,3 @@ url: work
 - Automaticly creates **resized** thumbnails.
 
 - Shows **exif** if it exists.
-

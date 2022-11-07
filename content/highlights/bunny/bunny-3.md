@@ -1,12 +1,13 @@
 ---
 weight: 3
 images:
-- https://source.unsplash.com/random?nature&197521
-title: nature 3
+- https://source.unsplash.com/random?bunny&22014
+title: bunny 3
 date: 2022-07-23
 tags:
-- work # homepage
+- highlights # homepage
 - archive # all posts
+- bunny
 - nature
 ---
 

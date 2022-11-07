@@ -1,11 +1,14 @@
 ---
-weight: -19
+weight: 4
 images:
-- https://source.unsplash.com/random?nature&9149
-title: nature 19
+- https://source.unsplash.com/random?nature&11225
+- https://source.unsplash.com/random?nature&32532
+multipleColumn: false
+title: nature 4
 date: 2022-07-23
 tags:
-- work # homepage
+- highlights # homepage
+- archive # all posts
 - nature
 ---
 
@@ -25,4 +28,4 @@ Some list
 
 1. A b c
 2. A b c
-3. A b c 
+3. A b c
