@@ -26,12 +26,12 @@ params:
     - icon: 'far fa-envelope fa-lg'
       url: 'mailto:joyemery@gmail.com'
       landing: true
-    - icon: 'fab fa-instagram fa-lg'
-      url: 'https://instagram.com/joyemery'
+    # - icon: 'fab fa-instagram fa-lg'
+    #   url: 'https://instagram.com/joyemery'
   homepage: "/highlights"
   specialPages:
     - highlights
-    - archive
+    - art
   bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
   plausible: '' # todo: set your plausible id.
   disableRadius: false
@@ -45,24 +45,26 @@ markup:
 
 taxonomies:
   tag: tags
+  medium: media
 
 permalinks:
   tags: ":slug"
+  media: "/media/:slug"
 
 menu:
   main:
     - name: highlights
       url: /highlights/
       weight: 1
-    - name: people
-      url: /people/
+    - name: Midieval
+      url: /midieval/
       weight: 2
-    - name: nature
+    - name: Nature
       url: /nature/
       weight: 3
-    - name: everything
-      url: /archive/
+    - name: Media
+      url: /media/
       weight: 4
-    - name: about
-      url: /about/
+    - name: All Art
+      url: /art/
       weight: 5
