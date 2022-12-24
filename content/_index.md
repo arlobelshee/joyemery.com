@@ -1,5 +1,5 @@
 ---
 desc:
-- Eternity is a minimalist Hugo theme
-- designed for portfolio sites with a fresh feel.
+- Welcome to Joy Anne Emery's portfolio. Take a look around!
 ---
+

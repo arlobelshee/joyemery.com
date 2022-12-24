@@ -6,32 +6,28 @@ googleAnalytics: '' # todo: set your analytics id.
 
 params:
   image: /images/banner.png
-  subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel. # todo: change default subtitle for your website.
+  subtitle: Art made in joy. # todo: change default subtitle for your website.
   copyright: All rights reserved.
   author: Joy Emery
   dontShowSource: true
+  multipleColumn: true
   portfolio:
     columns:
       desktop:
-        nature: 4
-        archive: 6
-        people: 2
         default: 3
       mobile:
         default: 2
-        archive: 3
-        people: 1
   socials:
     # todo: change these links.
     - icon: 'far fa-envelope fa-lg'
       url: 'mailto:joyemery@gmail.com'
       landing: true
-    - icon: 'fab fa-instagram fa-lg'
-      url: 'https://instagram.com/joyemery'
+    # - icon: 'fab fa-instagram fa-lg'
+    #   url: 'https://instagram.com/joyemery'
   homepage: "/highlights"
   specialPages:
     - highlights
-    - archive
+    - art
   bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
   plausible: '' # todo: set your plausible id.
   disableRadius: false
@@ -45,24 +41,26 @@ markup:
 
 taxonomies:
   tag: tags
+  medium: media
 
 permalinks:
-  highlights: ":filename/"
+  tags: ":slug"
+  media: "/media/:slug"
 
 menu:
   main:
-    - name: highlights
+    - name: Highlights
       url: /highlights/
       weight: 1
-    - name: people
-      url: /tags/people/
+    - name: Midieval
+      url: /midieval/
       weight: 2
-    - name: nature
-      url: /tags/nature/
+    - name: Nature
+      url: /nature/
       weight: 3
-    - name: everything
-      url: /tags/archive/
-      weight: 4
-    - name: about
-      url: /about/
+    # - name: Media
+    #   url: /media/
+    #   weight: 4
+    - name: All Art
+      url: /art/
       weight: 5
