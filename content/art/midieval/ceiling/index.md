@@ -1,9 +1,6 @@
 ---
 weight: 1
-images:
-- /images/midieval/ceiling/full.jpg
-- /images/midieval/ceiling/carved-angel.jpg
-- /images/midieval/ceiling/paintings.jpg
+mainImage: full.jpg
 title: Library ceiling
 date: 2022-07-23
 tags:
