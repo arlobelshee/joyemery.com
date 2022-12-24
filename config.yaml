@@ -6,10 +6,11 @@ googleAnalytics: '' # todo: set your analytics id.
 
 params:
   image: /images/banner.png
-  subtitle: Many media. # todo: change default subtitle for your website.
+  subtitle: Art made in joy. # todo: change default subtitle for your website.
   copyright: All rights reserved.
   author: Joy Emery
   dontShowSource: true
+  multipleColumn: true
   portfolio:
     columns:
       desktop:
