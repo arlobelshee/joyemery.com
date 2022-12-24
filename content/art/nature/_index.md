@@ -1,3 +1,3 @@
 ---
-title: Nature art
+title: nature
 ---

@@ -1,4 +1,3 @@
 ---
-title: Media
+title: media
 ---
-

@@ -13,14 +13,9 @@ params:
   portfolio:
     columns:
       desktop:
-        nature: 4
-        archive: 6
-        people: 2
         default: 3
       mobile:
         default: 2
-        archive: 3
-        people: 1
   socials:
     # todo: change these links.
     - icon: 'far fa-envelope fa-lg'
@@ -53,7 +48,7 @@ permalinks:
 
 menu:
   main:
-    - name: highlights
+    - name: Highlights
       url: /highlights/
       weight: 1
     - name: Midieval
@@ -62,9 +57,9 @@ menu:
     - name: Nature
       url: /nature/
       weight: 3
-    - name: Media
-      url: /media/
-      weight: 4
+    # - name: Media
+    #   url: /media/
+    #   weight: 4
     - name: All Art
       url: /art/
       weight: 5
