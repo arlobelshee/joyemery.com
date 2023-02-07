@@ -53,6 +53,15 @@ menu:
     - name: Nature
       url: /nature/
       weight: 3
+    - name: Fairy Tale
+      url: /fairy-tale/
+      weight: 4
+    - name: Installations
+      url: /installations/
+      weight: 5
+    - name: Stationary
+      url: /stationary/
+      weight: 6
     - name: Media
       url: /media/
       weight: 95
