@@ -1,5 +1,7 @@
 ---
 desc:
-- Welcome to Joy Anne Emery's portfolio. Take a look around!
+mainImage: art/medieval/ceiling/full.jpg
+# featuredTags:
+#   - highlights
+#   - nature
 ---
-

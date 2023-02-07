@@ -1,11 +1,11 @@
 baseURL: https://joyemery.art
 title: Joy Emery's Art
-defaultContentLanguage: 'en'
+defaultContentLanguage: "en"
 theme: eternity
-googleAnalytics: '' # todo: set your analytics id.
+googleAnalytics: "" # todo: set your analytics id.
 
 params:
-  image: /images/banner.png
+  image: /images/banner.jpg
   subtitle: Art made in joy. # todo: change default subtitle for your website.
   copyright: All rights reserved.
   author: Joy Emery
@@ -18,20 +18,14 @@ params:
       mobile:
         default: 2
   socials:
-    # todo: change these links.
-    - icon: 'far fa-envelope fa-lg'
-      url: 'mailto:joyemery@gmail.com'
-      landing: true
-    # - icon: 'fab fa-instagram fa-lg'
-    #   url: 'https://instagram.com/joyemery'
   homepage: "/highlights"
   specialPages:
     - highlights
     - art
-  bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
-  plausible: '' # todo: set your plausible id.
+  bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
+  plausible: "" # todo: set your plausible id.
   disableRadius: false
-  moveIt: false  # Moves Title and Meta info down, only visible when scroll.
+  moveIt: false # Moves Title and Meta info down, only visible when scroll.
 
 markup:
   defaultMarkdownHandler: goldmark
@@ -52,8 +46,8 @@ menu:
     - name: Highlights
       url: /highlights/
       weight: 1
-    - name: Midieval
-      url: /midieval/
+    - name: Medieval
+      url: /medieval/
       weight: 2
     - name: Nature
       url: /nature/
