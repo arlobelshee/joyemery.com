@@ -11,6 +11,10 @@
 {{ end }}
 
 {{ $multiCol := .ctx.Params.multipleColumn | default .ctx.Site.Params.multipleColumn | default false }}
+{{ $numCols := .ctx.Params.columnCount | default .columnCount | default 1 }}
+{{ if not $multiCol }}
+	{{ $numCols = 1 }}
+{{ end }}
 
 {{ $includesInfo := false }}
 {{ if or (and (gt (len $imgs) 1) (not $multiCol)) (gt (len .ctx.Content) 0) }}
@@ -28,11 +32,20 @@
 					{{ end }}
 				{{ end }}
 				<div {{ if $multiCol }} class="columns center" {{ end }}>
-					{{ range $i, $img := $imgs }}
-						<div {{ if $multiCol }} class="column" {{ end }}>
-							<img src="{{ $img.RelPermalink }}" loading="lazy" width="{{ $img.Width }}" height="{{ $img.Height }}" />
-						</div>
-					{{ end }}
+					{{ $currentCol := 0 -}}
+					{{ range $i, $img := $imgs -}}
+						{{ $imgNum := add 1 $i -}}
+						{{ $nextBreakpoint := div (mul $currentCol (len $imgs)) $numCols -}}
+						{{ if gt $imgNum $nextBreakpoint -}}
+							{{ if ne 0 $currentCol }}</div>{{ end -}}
+							<div class="column">
+							{{- $currentCol = add 1 $currentCol -}}
+						{{ end -}}
+							<div>
+								<img src="{{ $img.RelPermalink }}" loading="lazy" width="{{ $img.Width }}" height="{{ $img.Height }}" />
+							</div>
+					{{ end -}}
+					</div>
 				</div>
 				{{ if not .ctx.Site.Params.MoveIt }}
 					{{ partial "slides/meta" (dict "imgs" $imgs "ctx" .ctx) }}

@@ -6,6 +6,7 @@ googleAnalytics: "" # todo: set your analytics id.
 
 params:
   image: /images/banner.jpg
+  logo: /images/logo.png
   subtitle: Art made in joy. # todo: change default subtitle for your website.
   copyright: All rights reserved.
   author: Joy Emery
@@ -52,9 +53,18 @@ menu:
     - name: Nature
       url: /nature/
       weight: 3
-    # - name: Media
-    #   url: /media/
-    #   weight: 4
+    - name: Fairy Tale
+      url: /fairy-tale/
+      weight: 4
+    - name: Installations
+      url: /installations/
+      weight: 5
+    - name: Stationary
+      url: /stationary/
+      weight: 6
+    - name: Media
+      url: /media/
+      weight: 95
     - name: All Art
       url: /art/
-      weight: 5
+      weight: 100
