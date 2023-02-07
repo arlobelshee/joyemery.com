@@ -53,9 +53,9 @@ menu:
     - name: Nature
       url: /nature/
       weight: 3
-    # - name: Media
-    #   url: /media/
-    #   weight: 4
+    - name: Media
+      url: /media/
+      weight: 95
     - name: All Art
       url: /art/
-      weight: 5
+      weight: 100
