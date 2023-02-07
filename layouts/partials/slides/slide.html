@@ -34,11 +34,11 @@
 				<div {{ if $multiCol }} class="columns center" {{ end }}>
 					{{ $currentCol := 0 }}
 					{{ range $i, $img := $imgs }}
-						{{ if div $numCols $i }}<div class="column">{{ end }}
+						<!-- {{ if div $numCols $i }}<div class="column">{{ end }} -->
 							<div>
 								<img src="{{ $img.RelPermalink }}" loading="lazy" width="{{ $img.Width }}" height="{{ $img.Height }}" />
 							</div>
-						{{ if div  }}</div>{{ end }}
+						<!-- {{ if div  }}</div>{{ end }} -->
 					{{ end }}
 				</div>
 				{{ if not .ctx.Site.Params.MoveIt }}
