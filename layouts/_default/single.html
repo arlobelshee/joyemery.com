@@ -1,0 +1,9 @@
+{{ partial "header.html" . }}
+
+{{ partial "navbar.html" . }}
+
+<section class="section">
+	{{ partial "slides/slide.html" (dict "disableFullheight" false "columnCount" 3 "ctx" .) }}
+</section>
+
+{{ partial "footer.html" . }}
